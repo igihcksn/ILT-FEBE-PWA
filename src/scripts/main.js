@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const installBtn = document.getElementById('installBtn');
         if (installBtn) {
-          installBtn.style.display = 'block';
+          installBtn.style.display = 'flex';
           
           installBtn.addEventListener('click', () => {
             e.prompt();
